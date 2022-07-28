@@ -4,12 +4,20 @@ body {
 }
 
 .information {
+    position: absolute;
     background: rgb(29, 29, 29);
+    top: 0;
+    left: 0;
     /* Fallback color */
     background: rgba(29, 29, 29, 0.7);
     /* Black background with 0.5 opacity */
     color: #f1f1f1;
     width: 100%;
     height: 100%;
-    padding: 20px;
+}
+
+.top-half {
+    position: absolute;
+    top: 50%;
+    left: 10%;
 }
